@@ -1,0 +1,7 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "entities": ["src/auth/entities/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
