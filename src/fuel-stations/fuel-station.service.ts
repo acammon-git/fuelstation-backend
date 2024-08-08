@@ -3,8 +3,7 @@ import { HttpService } from '@nestjs/axios';
 import { InjectRepository } from '@nestjs/typeorm';
 import { MoreThan, Repository } from 'typeorm';
 import { FuelStation } from './entities/fuel-stations.entity';
-import { LoginDto, RegisterUserDto } from 'src/auth/dto';
-import { CreateStation } from './dto/create-station.dto';
+
 
 @Injectable()
 export class FuelStationService {
